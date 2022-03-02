@@ -1,0 +1,126 @@
+{
+  "ingredientes": {
+    "paes": [
+      {
+        "id": 1,
+        "tipo": "Italiano Branco"
+      },
+      {
+        "id": 2,
+        "tipo": "3 Queijos"
+      },
+      {
+        "id": 3,
+        "tipo": "Parmesão e Orégano"
+      },
+      {
+        "id": 4,
+        "tipo": "Integral"
+      }
+    ],
+    "embutidos": [
+      {
+        "id": 1,
+        "tipo": "Salsicha"
+      },
+      {
+        "id": 2,
+        "tipo": "Linguiça"
+      },
+      {
+        "id": 3,
+        "tipo": "Salsicha de frango"
+      },
+      {
+        "id": 4,
+        "tipo": "Salsicha de tofu"
+      },
+      {
+        "id": 5,
+        "tipo": "Linguiça apimentada"
+      }
+    ],
+    "opcionais": [
+      {
+        "id": 1,
+        "tipo": "Bacon"
+      },
+      {
+        "id": 2,
+        "tipo": "Cheddar"
+      },
+      {
+        "id": 3,
+        "tipo": "Salame"
+      },
+      {
+        "id": 4,
+        "tipo": "Tomate"
+      },
+      {
+        "id": 5,
+        "tipo": "Cebola roxa"
+      },
+      {
+        "id": 6,
+        "tipo": "Azeitona"
+      },
+      {
+        "id": 7,
+        "tipo": "Azeitona preta"
+      },
+      {
+        "id": 8,
+        "tipo": "Ovo de codorna"
+      },
+      {
+        "id": 9,
+        "tipo": "Catchup"
+      },
+      {
+        "id": 10,
+        "tipo": "Maionese"
+      },
+      {
+        "id": 11,
+        "tipo": "Queijo Ralado"
+      },
+      {
+        "id": 12,
+        "tipo": "Purê de batata"
+      },
+      {
+        "id": 13,
+        "tipo": "Milho"
+      }
+    ]
+  },
+  "status": [
+    {
+      "id": 1,
+      "tipo": "Solicitado"
+    },
+    {
+      "id": 2,
+      "tipo": "Em produção"
+    },
+    {
+      "id": 3,
+      "tipo": "Finalizado"
+    }
+  ],
+  "pedidos": [
+    {
+      "nome": "Yves",
+      "embutido": "Salsicha de frango",
+      "pao": "3 Queijos",
+      "extras": [
+        "Bacon",
+        "Salame",
+        "Azeitona"
+      ],
+      "status": "Solicitado",
+      "id": 1
+    }
+  ]
+}
